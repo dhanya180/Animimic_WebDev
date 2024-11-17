@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { FaUser, FaEnvelope, FaLock } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./login.css";
 import { useNavigate } from "react-router-dom";
 
@@ -136,7 +137,7 @@ function Login() {
         </button>
       </form>
       <div className="login-forgot-password">
-        <a href="/reset-password" className="forgot">Forgot Password?</a>
+        <Link to="/reset-password" className="forgot">Forgot Password?</Link>
       </div>
 
         <p className="login-p">
