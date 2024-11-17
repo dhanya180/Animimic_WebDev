@@ -141,7 +141,7 @@ function Login() {
       </div>
 
         <p className="login-p">
-        Don't have an account? <a href="/register" className="login-registerLink">Register</a>
+        Don't have an account? <Link to="/register" className="login-registerLink">Register</Link>
         </p>
     
     </div>
