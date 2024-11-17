@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 //import Login from './Login'
+import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import './register.css';
 
@@ -209,7 +210,7 @@ function Register() {
       </form>
     
       <p className="register-para">
-        Already have an account? <a href="/login" className="r-loginLink">Login</a>
+        Already have an account? <Link to="/login" className="r-loginLink">Login</Link>
       </p>
     </div>
   );
