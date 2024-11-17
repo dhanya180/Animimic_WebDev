@@ -1,0 +1,104 @@
+.login-container{
+  background-color: whitesmoke;
+  padding: 10px; /*for more space inside the container(width)*/
+  border-radius: 10px;
+  box-shadow: 0 0 15px black;
+  max-width: 700px;
+  
+  margin-top: 20vh;
+}
+
+  .login{
+    margin-bottom: 7px;/*distance between header and remaining elements*/
+    text-align: center;
+    color: #333;
+  }
+  .login-form-group{
+    margin-bottom: 5px;
+  }
+  .login-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .login-page-input{
+    width: 100%;
+    padding: 9px;
+    border: 2px solid #ccc;
+    border-radius: 7px !important;
+  }
+  .login-page-input:focus{
+    border-color: black;
+    box-shadow: 0 0 10px rgba(41, 42, 41, 0.3);
+  }
+  .main-login-button {
+    width: 100%;
+    padding: 12px; 
+    background-color: rgb(85, 87, 87);
+    color: white;
+    border:none;/*when hovered we are not getting blue border . so keeping it as none*/
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .main-login-button:hover {
+    background-color: black;
+  }
+  
+  /* Forgot password link styling */
+  .forgot-password {
+    text-align:center;
+    color:black;
+    font-size: larger;
+    margin-top: 8px;
+  }
+  
+  .forgot-password a {
+    color: #000000;
+    font-size: 14px;
+    padding: 7px;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+    color:black;
+  }
+  
+  /* Register container and button */
+  /* .register-container {
+      text-align: center;
+      margin-top: 20px;
+    } */
+  
+  /* .register-container p {
+      font-size: 14px;
+      color: #555;
+    }
+    
+    .register-button {
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+    }
+    
+    .register-button:hover {
+      background-color: #218838;
+    } */
+  .login-registerLink{
+    color:rgb(0, 0, 0);
+    font-size:large;
+  }
+  .login-p{
+    text-align: center;
+    color: black;
+    margin-top:0px;
+  }
+ .forgot{
+  color:black;
+ }

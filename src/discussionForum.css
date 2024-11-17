@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.discussion-forum {
+  width:1400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 10px 20px;
+  color: whitesmoke;
+  width:100%;
+  box-sizing:border-box;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+  flex-grow: 1;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+.nav-right input {
+  padding: 8px;
+  border: none;
+  border-radius: 7px;
+  margin-right: 10px;
+  font-size: 16px;
+  width: 250px;
+  max-width:100%;
+  color:black;
+} 
+
+.nav-right:hover {
+  outline: black;
+}
+
+.new-post-btn {
+  background-color: white;
+  color: #131313;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.new-post-btn:hover {
+  background-color: #757575;
+}
+
+main .discussion {
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  background-color: whitesmoke;
+  margin: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main .discussion h2 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  color: #010101;
+}
+
+main .discussion p {
+  margin: 0 0 10px 0;
+  text-align:left;
+  color: #3c3c3c;
+}
+
+.actions button {
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  color: #000000;
+}
+
+
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal content box */
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px; /* Set the width of the modal */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+  color:#000000;
+}
+
+.modal-content label {
+  display: block;
+  margin: 10px 0;
+  text-align: left;
+  font-size:large;
+}
+
+.modal-content input,
+.modal-content textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size:medium;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  background-color:grey;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.modal-content button:hover {
+  background-color: #000000;
+}
+
+.modal-content button:last-child {
+  background-color:grey;
+}
+
+.modal-content button:last-child:hover {
+  background-color: #000000;
+}

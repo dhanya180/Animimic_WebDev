@@ -1,0 +1,68 @@
+/*body {
+    display: flex;                /* Enables Flexbox layout */
+   /* justify-content: center;      /* Centers horizontally */
+   /* align-items: center;          /* Centers vertically */
+   /* height: 100vh;                /* Sets body height to full viewport height */
+   /* margin: 0;                    /* Removes default margin */
+/*}*/
+
+.security-questions-container {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin-top:45px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.security-title {
+    color:black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.security-group {
+    margin-bottom: 15px;
+}
+
+.security-label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.security-select,
+.security-answer {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.security-select {
+    background-color: #fff;
+}
+
+.submit-reset-button {
+    width: 100%;
+    padding: 12px; 
+    background-color: rgb(85, 87, 87);
+    color: white;
+    border:none;/*when hovered we are not getting blue border . so keeping it as none*/
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px; 
+    font-size: 15px;
+}
+
+.submit-button:hover {
+    background-color: black;
+}
+p{
+    color:black;
+    text-align:center;
+    font-size:16px;
+}

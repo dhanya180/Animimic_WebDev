@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    /*background-color: #f4f4f4;*/
+    margin: 0;
+    padding: 0;
+}
+
+.terms-container {
+    max-width: 1500px;
+    text-align: left;
+    margin: 15px auto;
+    margin-left: 0px;
+    padding: 15px;
+    background:rgb(20, 20, 20);
+    /*background:linear-gradient(135deg,black,grey);*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+}
+
+.terms-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {  
+    color: rgb(225, 225, 225);
+}
+
+h2 {
+    text-align: start;
+    color: rgb(225, 225, 225);
+    margin-top: 20px;
+    font-style:sans-serif;
+    
+}
+
+.term-p {
+    text-align: start;
+    margin: 10px 0;
+    color: rgb(165, 165, 165);
+}
+.custom-link {
+    font-size: large;
+    color: inherit; /* Inherits the parent color */
+    text-decoration: none; /* Removes underline */
+}
+
+.custom-link:hover {
+    color: black; /* Adds a different color on hover, optional */
+    text-decoration:none; /* Adds underline on hover, optional */
+}
+/*.first{
+    font-size: medium;
+    color:blue;
+}*/
+a{
+    text-decoration: none;
+    color:red;
+}
+blockquote{
+    color:rgb(165, 165, 165);
+}

@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;/*to reduce the gap between elements*/
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    /*background: linear-gradient(135deg, skyblue,yellowgreen);*/
+    /*background: linear-gradient(135deg, #a1c4fd, #c2e9fb);*/
+    background: black;
+    display: flex;
+    justify-content: center;/*to keep border box at the centre*/
+    align-items: center;
+    padding: 10px;/*the distance between top of the website and border-box*/
+  }
+  
+  .containerRegister {
+    background-color: whitesmoke;
+    padding: 10px; /*for more space inside the container(width)*/
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 18px;
+  }
+  /*.container label{
+    font-size: medium;
+  }*/
+  .register {
+    margin-bottom: 7px;/*distance between header and remaining elements*/
+    text-align: center;
+    color: #333;
+  }
+
+  .register-terms-container {
+    /*display: flex;
+    align-items: center;*/
+    display: inline-flex; /* Ensures that checkbox and text stay in a single line */
+    align-items: center; /* Aligns checkbox and text vertically */
+    gap: 8px; /* Adds space between the checkbox and text */
+    white-space: nowrap; 
+  }
+
+  .register-terms-checkbox input{
+    margin-right: 8px; /* Adds space between checkbox and label */
+  }
+
+
+  .input-group {
+    margin-bottom: 5px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .register-box {/*boxes in which we write text*/
+    width: 100%;
+    padding: 9px;
+    border: 2px solid #ccc;
+    border-radius: 7px !important;
+  }
+  
+  .register-box:focus {/*when we click on that box then black colour is displayed*/
+    border-color: black;
+    box-shadow: 0 0 10px rgba(41, 42, 41, 0.3);
+  }
+  
+  .register-submit-button {
+    width: 100%;
+    padding: 12px; 
+    background-color: rgb(85, 87, 87);
+    color: white;
+    border:none;/*when hovered we are not getting blue border . so keeping it as none*/
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px; 
+  }
+  
+  .register-submit-button:hover {
+    background-color:black;
+  }
+  
+  .register-para{
+    text-align: center;
+    color: black;
+    margin-top:0px;
+  }
+  .register-a {
+    color:white;
+    font-size: medium;
+  }
+  .r-loginLink{
+    color:rgb(0, 0, 0);
+    font-size:large;
+  }
+  

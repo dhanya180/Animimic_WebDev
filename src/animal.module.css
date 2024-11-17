@@ -1,0 +1,157 @@
+/* General body settings */
+.simulation-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100vh;
+  position: relative;
+}
+
+.animal-display {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Animal models should be above buttons */
+}
+
+.animal-module-page-body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.textareaContainer {
+  position: fixed;
+  width: 50%;
+  bottom: 20px;
+  left: 53%;
+  right: 20%;
+  color:transparent;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textareaContainer textarea {
+  width: 80%;
+  height: 30px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* cursor: pointer; */
+  margin-bottom: 10px;
+  background-color: transparent;
+  color:white;
+  padding: 5px;
+  font-size: 16px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.textareaContainer button {
+  /* font-size: 29px;  */
+  width: 31px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid white;
+  background-color: transparent;
+  color:white;
+  /* margin-bottom: 25px; */
+  /* cursor: pointer; */
+  /* border-radius: 10px; */
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.textareaContainer button:hover {
+  background-color: white;
+  color:black;
+}
+
+/* Positioning for the Button containers */
+.ButtonLeft {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* column-gap: 5%; */
+  z-index: 2; /* Ensure buttons are clickable */
+}
+
+.ButtonRight {
+  position: absolute;
+  top: 1%;
+  right: 6%;
+  bottom: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 2; /* Ensure buttons are clickable */
+}
+
+/* Common styling for all buttons */
+.ButtonLeft button,
+.ButtonRight button {
+  font-size: 29px; /* Icon size */
+  width: 130px;
+  height: 130px;
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  /* margin-bottom: 25px; */
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.ButtonRight button {
+  width: 109px;
+  height: 109px;
+}
+
+/* Hover effect */
+.ButtonLeft button:hover,
+.ButtonRight button:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+
+/* Selected button style */
+.ButtonLeft button.selected,
+.ButtonRight button.selected {
+  background-color: white;
+  color: black;
+  border: 2px solid black; /* Thicker border in a different color */
+  transform: scale(1.15);
+  box-shadow: 0px 0px 10px black; /* Glow effect to emphasize selection */
+}
+
+.ButtonRight select {
+  flex: 1;
+  height: 30px;
+  color: white;
+  background-color: black;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+.ButtonRight select.selected {
+  background-color: white;
+  color: black;
+  border: 3px solid black; /* Thicker border in a different color */
+  /* transform: scale(1.15); */
+  box-shadow: 0px 0px 10px black; /* Glow effect to emphasize selection */
+}
+.ButtonRight select:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}

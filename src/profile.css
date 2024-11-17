@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;/*to reduce the gap between elements*/
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    /*background: linear-gradient(135deg, skyblue,yellowgreen);*/
+    /*background: linear-gradient(135deg, #a1c4fd, #c2e9fb);*/
+    background: black;
+    display: flex;
+    justify-content: center;/*to keep border box at the centre*/
+    align-items: center;
+    padding: 25px;/*the distance between top of the website and border-box*/
+  }
+
+  
+  .profile-container {
+    margin-top: 50%;
+    background-color: whitesmoke;
+    padding: 30px; /*for more space inside the container(width)*/
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px; 
+    background-color: rgb(85, 87, 87);
+    color: white;
+    border:none;/*when hovered we are not getting blue border . so keeping it as none*/
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px; 
+  }
+  .submit-button:hover {
+    background-color:black;
+  }
+  h3{
+    margin-top:20px;
+    font-size: larger;
+  
+  }
+  
+  .change-password-form {
+    margin-top: 20px;
+    background-color: #fcfcfc;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .change-password-form label {
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
+  .change-password-form input {
+    width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  }
+  .profile{
+    color:black;
+  }
