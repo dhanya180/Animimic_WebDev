@@ -22,7 +22,7 @@ const HomePage = () => {
     let categories = ["programming", "hollywood", "film making", "social-media", "cooking", "tech", "finances", "travel", "test", "test1"];
 
     const fetchLatestBlogs = ({page = 1}) => {
-        let serverURL = "https://animimic-server-3.onrender.com"
+        let serverURL = "https://animimic-server-6.onrender.com"
         axios.post(serverURL + "/latest-blogs" , {page})
             .then(async ({ data }) => {
                // console.log(data.blogs);
@@ -43,7 +43,7 @@ const HomePage = () => {
 
 
     const fetchBlogsByCategory = ({page = 1}) => {
-        let serverURL = "https://animimic-server-3.onrender.com"
+        let serverURL = "https://animimic-server-6.onrender.com"
         axios.post(serverURL + "/search-blogs", { tag: pageState, page })
             .then(async({ data }) => {
 
@@ -66,7 +66,7 @@ const HomePage = () => {
 
 
     const fetchTrendingBlogs = () => {
-        let serverURL = "https://animimic-server-3.onrender.com"
+        let serverURL = "https://animimic-server-6.onrender.com"
         axios.get(serverURL + "/trending-blogs")
             .then(({ data }) => {
                 setTrendingBlog(data.blogs);
