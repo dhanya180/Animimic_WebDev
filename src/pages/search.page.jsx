@@ -17,7 +17,7 @@ const SearchPage = () => {
 
     const searchBlogs = ( { page = 1, create_new_arr = false}) => {
 
-        let serverURL = "https://animimic-server-3.onrender.com"
+        let serverURL = "https://animimic-server-6.onrender.com"
         axios.post(serverURL + "/search-blogs", {query, page })
         .then(async ({ data }) => {
              //console.log(data.blogs);
