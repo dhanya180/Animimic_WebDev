@@ -34,7 +34,7 @@ const ManageBlogs =()=>{
 
     //let {userAuth:{access_token}}=useContext(UserContext);
     const getBlogs=({page,draft,deletedDocCount=0})=>{
-      let ServerURL="https://animimic-server-3.onrender.com";
+      let ServerURL="https://animimic-server-6.onrender.com";
 
      axios.post(ServerURL+"/user-written-blogs",{
         page,draft,query,deletedDocCount,authorId
