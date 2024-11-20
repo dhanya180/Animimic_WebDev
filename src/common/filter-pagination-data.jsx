@@ -8,7 +8,7 @@ export const filterPaginationData = async ({ create_new_arr = false , arr,data,p
         obj={ ...state,results: [ ...state.results,...data],page : page }
     }else{
 
-        let serverURL = "https://animimic-server-3.onrender.com"
+        let serverURL = "https://animimic-server-6.onrender.com"
         await axios.post(serverURL + countRoute, data_to_send)
         .then(({data : {totalDocs } }) => {
 
