@@ -3,7 +3,7 @@ import "../index.css";
 export const uploadImage = async (img) => {
     console.log("Starting image upload.");
     let imgUrl = null;
-    const serverUrl = "https://animimic-server-3.onrender.com";
+    const serverUrl = "https://animimic-server-6.onrender.com";
     
     try {
         const { data: { uploadURL, public_id, upload_preset, timestamp, signature, api_key } } = await axios.get(serverUrl + "/get-upload-url");
