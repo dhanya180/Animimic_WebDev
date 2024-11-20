@@ -35,7 +35,7 @@ const BlogPage = () => {
     let username = blog.author?.username || "anonymous";
 
     const fetchBlog = () => {
-        let serverURL = "https://animimic-server-3.onrender.com";
+        let serverURL = "https://animimic-server-6.onrender.com";
         axios.post(serverURL + "/get-blog", { blog_id })
             .then(({ data: { blog } }) => {
                 
