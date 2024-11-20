@@ -43,7 +43,7 @@ const Discussion = () => {
 
 
   const fetchLatestBlogs = ({page = 1}) => {
-    let serverURL = "https://animimic-server-3.onrender.com"
+    let serverURL = "https://animimic-server-6.onrender.com"
     axios.post(serverURL + "/latest-blogs" , {page})
         .then(async ({ data }) => {
            // console.log(data.blogs);
