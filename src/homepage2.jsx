@@ -210,7 +210,7 @@ const HomePage2 = () => {
                   Learn while enjoying pets mimicing other pets by 3D
                   simulations
                 </p>
-                <Link to="/simulation" className="btn btn-primary">
+                <Link to="/dog" className="btn btn-primary">
                   Explore
                 </Link>
               </div>
