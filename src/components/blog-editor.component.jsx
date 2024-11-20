@@ -60,7 +60,7 @@ const BlogEditor = () => {
                 content,  
                 draft:true
               };
-            let pranathiURL = "https://animimic-server-3.onrender.com";
+            let pranathiURL = "https://animimic-server-6.onrender.com";
             axios.post(pranathiURL+"/create-blog",blogObj,
                 )
                 .then(()=>{
